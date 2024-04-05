@@ -6,7 +6,7 @@ const EmailButton = () => {
 
   const handleCopy = () => {
     navigator.clipboard.writeText("mccarthy.kevin@proton.me");
-    setTooltipMessage("Copied! ");
+    setTooltipMessage("Copied! ✨");
 
     setTimeout(() => {
       setTooltipMessage("Copy Email");
